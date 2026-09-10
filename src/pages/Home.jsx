@@ -101,7 +101,7 @@ export default function Home() {
             className="object-contain"
             src="/assets/image1.png"
             alt="Hero Vector"
-            width={550}
+            width={400}
             height={300}
           />
         </motion.div>

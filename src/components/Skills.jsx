@@ -69,7 +69,7 @@ export default function Skills() {
     {
       id: 1,
       company: "PT Amartha Mikro Fintech",
-      role: "Mobile Engineer (Flutter & Kotlin)",
+      role: "Software Engineer",
       period: "12/2022 - Present",
       bullets: [
         "Managed deployment lifecycle by uploading iOS builds to TestFlight and APK releases to Google Play Store, ensuring smooth, compliant release cycles.",
@@ -81,7 +81,7 @@ export default function Skills() {
         "Integrated Firebase Crashlytics & real-time notifications, sustaining a 99.81% crash-free session rate across production releases.",
         "Authored Technical Review Documents (TRD) and facilitated RFC documents to align engineering teams on major architectural initiatives.",
       ],
-      tags: ["Flutter", "Kotlin", "Jetpack Compose", "Clean Architecture", "Firebase Remote Config", "CI/CD", "Bitbucket"],
+      tags: ["Flutter", "Kotlin", "Jetpack Compose", "Firebase", "CI/CD", "Bitbucket", "Docker", "Golang", "Next.js"],
     },
     {
       id: 2,

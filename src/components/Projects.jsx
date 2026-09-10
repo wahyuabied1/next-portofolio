@@ -5,12 +5,11 @@ const projects = [
   {
     id: 1,
     title: "AmarthaFin & AmarthaPartners Ecosystem",
-    role: "Mobile Engineer (Flutter & Kotlin)",
+    role: "Software Engineer",
     description:
       "Mission-critical nationwide microfinance mobile platforms. Architected resilient offline-first transactional architectures, multi-module Kotlin & Flutter codebase, custom dynamic widget rendering library, and Firebase Remote Config feature gating, maintaining a 99.81% crash-free rate across production releases.",
-    tags: ["Flutter", "Kotlin", "Clean Architecture", "Offline-First Sync", "Jetpack Compose"],
-    image: "/assets/project1.png",
-    link: "https://github.com/wahyuabied1",
+    tags: ["Flutter", "Kotlin", "Firebase", "Jetpack Compose", "Golang", "Next.js"],
+    image: "/assets/amarthafin.jpg",
   },
   {
     id: 2,
@@ -19,8 +18,7 @@ const projects = [
     description:
       "Comprehensive merchant point-of-sale Android application featuring QRIS barcode payment gateway integration, subscription handling, shift management, Datadog observability, and automated CodeMagic CI/CD deployment to Google Play Store.",
     tags: ["Android SDK", "Kotlin", "QRIS Payments", "Datadog", "CodeMagic CI/CD"],
-    image: "/assets/project1.png",
-    link: "https://github.com/wahyuabied1",
+    image: "/assets/post.png",
   },
   {
     id: 3,
@@ -29,18 +27,7 @@ const projects = [
     description:
       "Engineered automated investment workflows with the Robo Daily Tenure feature and integrated top Indonesian digital e-wallets (ShopeePay and OVO) alongside MVVM architectural refactoring for high-throughput financial transactions.",
     tags: ["Android", "MVVM", "ShopeePay", "OVO Gateway", "Fintech"],
-    image: "/assets/project1.png",
-    link: "https://github.com/wahyuabied1",
-  },
-  {
-    id: 4,
-    title: "AI-Assisted CI/CD Pull Request Review Pipeline",
-    role: "DevOps & Engineering Automation",
-    description:
-      "Designed and deployed an intelligent Bitbucket CI/CD pipeline integrated with AI to automate pull request analysis, enforce coding standards, and streamline engineering code review velocity.",
-    tags: ["Bitbucket Pipelines", "AI Automation", "CI/CD", "Quality Assurance"],
-    image: "/assets/project1.png",
-    link: "https://github.com/wahyuabied1",
+    image: "/assets/koinworks.jpeg",
   },
 ];
 
@@ -105,8 +92,6 @@ export default function Projects() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span>View on GitHub</span>
-                <TbExternalLink size={20} />
               </a>
             </div>
           </motion.div>

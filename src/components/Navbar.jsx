@@ -64,8 +64,7 @@ export default function Navbar() {
         </ul>
 
         <motion.a
-          href="/assets/cv.pdf"
-          download="Wahyu_Abid_Arifiyanto_CV.pdf"
+          href="https://drive.google.com/file/d/1d4EPDd8Ph3t3telsBjqM9H6SWI6V7_iq/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden relative lg:inline-block px-4 py-2 font-medium group"
@@ -115,8 +114,7 @@ export default function Navbar() {
                 </motion.li>
               ))}
               <motion.a
-                href="/assets/cv.pdf"
-                download="Wahyu_Abid_Arifiyanto_CV.pdf"
+                href="https://drive.google.com/file/d/1d4EPDd8Ph3t3telsBjqM9H6SWI6V7_iq/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative inline-block px-4 py-2 font-semibold group"
