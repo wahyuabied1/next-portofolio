@@ -1,58 +1,62 @@
-# Portfolio Website
+# Wahyu Abid Arifiyanto – Portfolio Website
 
-This is a personal portfolio website built using Vite+React, Tailwind CSS, and Framer Motion to showcase my skills, projects, and experience.
+A modern, responsive personal portfolio website built with **React**, **Vite**, **Tailwind CSS**, and **Framer Motion** to showcase my software engineering background, technical competencies, fintech projects, and professional experience.
 
-## Features
-- **Responsive Design** – Works on all screen sizes.
-- **Smooth Animations** – Powered by Framer Motion for interactive user experience.
-- **Dark Mode Support** – Stylish UI with light and dark theme toggling.
-- **Optimized Performance** – Efficient rendering and smooth navigation.
-- **SEO Friendly** – Optimized for better search engine visibility.
-
-## Tech Stack
-- **Frontend:** React.js
-- **Styling:** Tailwind CSS
-- **Animations:** Framer Motion
-
-## Installation & Setup
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/sathishk-dev/illustration-portfolio.git
-   ```
-2. Navigate to the project directory:
-   ```sh
-   cd illustration-portfolio
-   ```
-3. Install dependencies:
-   ```sh
-   npm install
-   ```
-4. Start the development server:
-   ```sh
-   npm run dev
-   ```
-   The app will be available at `http://localhost:3000/`.
-
-## Demo
-Check out the live demo of the portfolio website: [Live Demo](https://sk-illustration-portfolio.netlify.app/)
-
-## Deployment
-To deploy the portfolio website, you can use platforms like:
-- **Vercel**
-- **Netlify**
-- **GitHub Pages** (with additional configurations)
-
-## How to Contribute
-If you’d like to contribute or improve this project, feel free to fork the repository and submit a pull request.
-
-## 🙌 Show Your Support
-If you like this project, please star it and share it with your friends!
-
-## Contact
-If you have any questions or suggestions, feel free to reach out via:
-- **Email:** sathish31102004@gmail.com
-- **LinkedIn:** [@sathishk-dev](https://linkedin.com/in/sathishk-dev)
+[![GitHub](https://img.shields.io/badge/GitHub-wahyuabied1-181717?style=flat&logo=github)](https://github.com/wahyuabied1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-wahyu--abid-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/wahyu-abid/)
+[![Email](https://img.shields.io/badge/Email-wahyu.abieddev%40gmail.com-EA4335?style=flat&logo=gmail)](mailto:wahyu.abieddev@gmail.com)
 
 ---
-Made with ❤️ by Sathish Kumar.
+
+## 🛠️ Tech Stack & Skills
+
+### Web Portfolio Stack
+- **Framework:** React 19 (SPA)
+- **Build Tool:** Vite 6
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion & react-type-animation
+- **Icons:** React Icons
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/wahyuabied1/next-portofolio.git
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd next-portfolio
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   yarn install
+   # or
+   npm install
+   ```
+
+4. **Start the local development server:**
+   ```bash
+   yarn dev
+   # or
+   npm run dev
+   ```
+
+5. **Build for production:**
+   ```bash
+   yarn build
+   # or
+   npm run build
+   ```
+
+---
+
+## 📬 Contact & Connect
+
+- **Email:** [wahyu.abieddev@gmail.com](mailto:wahyu.abieddev@gmail.com)
+- **LinkedIn:** [Wahyu Abid Arifiyanto](https://linkedin.com/in/wahyu-abid/)
+- **GitHub:** [@wahyuabied1](https://github.com/wahyuabied1)
+
+---
+© 2025 - 2026 Wahyu Abid Arifiyanto. All Rights Reserved.
