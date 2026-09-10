@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 
 export default function About() {
@@ -26,15 +25,15 @@ export default function About() {
         </h2>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-5 lg:mt-10">
-          I'm a passionate full-stack developer specializing in **React.js & Node.js**. I thrive on blending technical expertise with sleek UI/UX design to build high-performing, user-friendly applications.
+          I&apos;m an accomplished <strong className="text-black font-semibold">Software Engineer</strong> with over 6 years of specialized experience architecting mission-critical, large-scale mobile financial systems. My core expertise spans <strong className="text-black font-semibold">Kotlin &amp; Flutter</strong>, engineering resilient offline-first transactional architectures for nationwide microfinance operations.
         </p>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-5">
-          My web development journey started in **2015**, and since then, I've continuously evolved, taking on new challenges and keeping up with the latest technologies. Today, I build **cutting-edge web applications** using **Next.js, TypeScript, NestJS, TailwindCSS, Supabase, and more**.
+          Throughout my career at fintech leaders like <strong className="text-black font-semibold">Amartha</strong>, <strong className="text-black font-semibold">PT Sejahtera Lunaria Annua (KoinWorks)</strong>, and <strong className="text-black font-semibold">Payfazz</strong>, I have maintained a <strong className="text-black font-semibold">99.81% crash-free rate</strong> across production releases. I specialize in Clean Architecture, MVVM, dynamic Firebase Remote Config feature gating, CI/CD automation, and leading staged release governance as Release PIC and Gatekeeper.
         </p>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-5">
-          Beyond coding, I enjoy sharing insights on **Twitter**, engaging with **Indie Hackers**, and following the journey of **early-stage startups**. Feel free to follow me on **Twitter** or check out my projects on **GitHub**.
+          I graduated with a <strong className="text-black font-semibold">Bachelor&apos;s Degree (D4) in Engineering</strong> from <strong className="text-black font-semibold">Politeknik Elektronika Negeri Surabaya (PENS)</strong>, where I conducted AI algorithm research and published peer-reviewed research in Image Processing.
         </p>
       </motion.div>
     </div>

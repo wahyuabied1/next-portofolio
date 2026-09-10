@@ -1,6 +1,5 @@
-import React from "react";
 import { motion } from "framer-motion";
-import { IoLogoLinkedin, IoLogoTwitter } from "react-icons/io5";
+import { IoLogoLinkedin } from "react-icons/io5";
 import { BiLogoGmail } from "react-icons/bi";
 import { BsGithub } from "react-icons/bs";
 import { TypeAnimation } from "react-type-animation";
@@ -33,29 +32,27 @@ export default function Home() {
             <motion.h2 variants={{ hidden: { opacity: 0, y: 10 }, visible: { opacity: 1, y: 0 } }}>
               Hello, <TypeAnimation
                 sequence={[
-                  'I am Sathish Kumar',
-                  1000,
-                  // 'I am a Web Developer',
-                  // 1000,
-                  // 'I am a UI/UX Designer',
-                  // 1000,
+                  'I am Wahyu Abid',
+                  1500,
+                  'I am a Software Engineer',
+                  1500,
                 ]}
-                speed={10}
-                style={{ fontWeight:600 }}
+                speed={20}
+                style={{ fontWeight: 600 }}
                 repeat={Infinity}
               />
             </motion.h2>
             <motion.h2 variants={{ hidden: { opacity: 0, y: 10 }, visible: { opacity: 1, y: 0 } }}>
-              <span className="font-extrabold">Fullstack</span>{" "}
+              <span className="font-extrabold">Mid - Senior Software</span>{" "}
               <span
                 className="text-white font-extrabold"
                 style={{ WebkitTextStroke: "1px black" }}
               >
-                Developer
+                Engineer
               </span>
             </motion.h2>
             <motion.h2 variants={{ hidden: { opacity: 0, y: 10 }, visible: { opacity: 1, y: 0 } }}>
-              Based In <span className="font-extrabold">India.</span>
+              Based In <span className="font-extrabold">Indonesia.</span>
             </motion.h2>
           </motion.div>
 
@@ -65,7 +62,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 1 }}
           >
-            Passionate about technology, I specialize in Web Development and Web Designing. I’m focused on building innovative solutions and continuously expanding my skills. My goal is to grow as a developer and contribute to impactful projects in the tech industry.
+            Accomplished Software Engineer with 6+ years of specialized experience architecting mission-critical, large-scale mobile financial systems. Proven track record scaling multi-module Kotlin and Flutter mobile applications, engineering resilient offline-first transactional architectures, and sustaining a 99.81% crash-free session rate across production releases.
           </motion.p>
 
           <motion.div
@@ -74,10 +71,17 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 1 }}
           >
-            {[BiLogoGmail, IoLogoLinkedin, IoLogoTwitter, BsGithub].map((Icon, index) => (
+            {[
+              { Icon: BiLogoGmail, href: "mailto:wahyu.abieddev@gmail.com", title: "Email" },
+              { Icon: IoLogoLinkedin, href: "https://linkedin.com/in/wahyu-abid/", title: "LinkedIn" },
+              { Icon: BsGithub, href: "https://github.com/wahyuabied1", title: "GitHub" },
+            ].map(({ Icon, href, title }, index) => (
               <motion.a
                 key={index}
-                href="#"
+                href={href}
+                target={href.startsWith("http") ? "_blank" : undefined}
+                rel={href.startsWith("http") ? "noopener noreferrer" : undefined}
+                title={title}
                 className="bg-white p-2 lg:p-3 rounded border-2 border-black"
                 whileHover={{ scale: 1.1, backgroundColor: "#000", color: "#fff" }}
                 whileTap={{ scale: 0.9 }}

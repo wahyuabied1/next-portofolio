@@ -1,22 +1,47 @@
-import React from 'react';
 import { TbExternalLink } from "react-icons/tb";
 import { motion } from 'framer-motion';
 
 const projects = [
   {
     id: 1,
-    title: "Crypto Screener Application",
-    description: "A powerful tool for tracking and analyzing cryptocurrency trends in real-time.",
+    title: "AmarthaFin & AmarthaPartners Ecosystem",
+    role: "Mobile Engineer (Flutter & Kotlin)",
+    description:
+      "Mission-critical nationwide microfinance mobile platforms. Architected resilient offline-first transactional architectures, multi-module Kotlin & Flutter codebase, custom dynamic widget rendering library, and Firebase Remote Config feature gating, maintaining a 99.81% crash-free rate across production releases.",
+    tags: ["Flutter", "Kotlin", "Clean Architecture", "Offline-First Sync", "Jetpack Compose"],
     image: "/assets/project1.png",
-    link: "#"
+    link: "https://github.com/wahyuabied1",
   },
   {
     id: 2,
-    title: "Stock Market Dashboard",
-    description: "An interactive dashboard to monitor stock prices and market trends efficiently.",
+    title: "POST – Point of Sale & Merchant Banking (Payfazz)",
+    role: "Android Engineer",
+    description:
+      "Comprehensive merchant point-of-sale Android application featuring QRIS barcode payment gateway integration, subscription handling, shift management, Datadog observability, and automated CodeMagic CI/CD deployment to Google Play Store.",
+    tags: ["Android SDK", "Kotlin", "QRIS Payments", "Datadog", "CodeMagic CI/CD"],
     image: "/assets/project1.png",
-    link: "#"
-  }
+    link: "https://github.com/wahyuabied1",
+  },
+  {
+    id: 3,
+    title: "Robo Daily Tenure & Digital Payment Gateways",
+    role: "Android Engineer (PT Sejahtera Lunaria Annua)",
+    description:
+      "Engineered automated investment workflows with the Robo Daily Tenure feature and integrated top Indonesian digital e-wallets (ShopeePay and OVO) alongside MVVM architectural refactoring for high-throughput financial transactions.",
+    tags: ["Android", "MVVM", "ShopeePay", "OVO Gateway", "Fintech"],
+    image: "/assets/project1.png",
+    link: "https://github.com/wahyuabied1",
+  },
+  {
+    id: 4,
+    title: "AI-Assisted CI/CD Pull Request Review Pipeline",
+    role: "DevOps & Engineering Automation",
+    description:
+      "Designed and deployed an intelligent Bitbucket CI/CD pipeline integrated with AI to automate pull request analysis, enforce coding standards, and streamline engineering code review velocity.",
+    tags: ["Bitbucket Pipelines", "AI Automation", "CI/CD", "Quality Assurance"],
+    image: "/assets/project1.png",
+    link: "https://github.com/wahyuabied1",
+  },
 ];
 
 export default function Projects() {
@@ -44,17 +69,44 @@ export default function Projects() {
               />
             </div>
 
-            <div className="lg:w-1/2 lg:space-y-6 space-y-4">
+            <div className="lg:w-1/2 lg:space-y-4 space-y-3">
               <h2 className="font-extrabold text-white mt-5 lg:mt-0 text-3xl lg:text-5xl">
                 {String(project.id).padStart(2, "0")}
               </h2>
-              <p className="font-bold text-white text-xl lg:text-3xl">{project.title}</p>
+              <div>
+                <p className="font-bold text-white text-xl lg:text-3xl">{project.title}</p>
+                {project.role && (
+                  <p className="text-zinc-400 font-medium text-xs lg:text-sm mt-1">
+                    {project.role}
+                  </p>
+                )}
+              </div>
 
               <p className="font-light text-sm/6 lg:text-base text-[#71717A]">
                 {project.description}
               </p>
-              <a href={project.link} className="text-white mt-3 block" target="_blank" rel="noopener noreferrer">
-                <TbExternalLink size={23} />
+
+              {project.tags && (
+                <div className="flex flex-wrap gap-2 pt-2">
+                  {project.tags.map((tag, tIdx) => (
+                    <span
+                      key={tIdx}
+                      className="text-xs text-zinc-300 bg-zinc-900 border border-zinc-700 px-2.5 py-1 rounded"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              )}
+
+              <a
+                href={project.link}
+                className="text-white mt-4 inline-flex items-center gap-2 hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>View on GitHub</span>
+                <TbExternalLink size={20} />
               </a>
             </div>
           </motion.div>
