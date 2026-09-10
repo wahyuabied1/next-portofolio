@@ -24,7 +24,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "Robo Daily Tenure & Digital Payment Gateways",
+    title: "Koinworks",
     role: "Android Engineer (PT Sejahtera Lunaria Annua)",
     description:
       "Engineered automated investment workflows with the Robo Daily Tenure feature and integrated top Indonesian digital e-wallets (ShopeePay and OVO) alongside MVVM architectural refactoring for high-throughput financial transactions.",

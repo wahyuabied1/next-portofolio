@@ -17,7 +17,7 @@ export default function Home() {
         >
 
           <motion.div
-            className="text-2xl lg:text-5xl flex flex-col mt-8 lg:mt-0 gap-2 lg:gap-5 text-nowrap"
+            className="text-2xl lg:text-5xl flex flex-col mt-8 lg:mt-0 gap-2 lg:gap-15 text-nowrap"
             initial="hidden"
             animate="visible"
             variants={{
@@ -66,7 +66,7 @@ export default function Home() {
           </motion.p>
 
           <motion.div
-            className="flex items-center gap-x-5 mt-10 lg:mt-14"
+            className="flex items-center gap-x-5 mt-12 lg:mt-14"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 1 }}
@@ -93,12 +93,17 @@ export default function Home() {
         </motion.div>
 
         <motion.div
-          className="lg:w-[55%] w-full"
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
         >
-          <img className="h-full w-full" src="/assets/hero-vector.svg" alt="Hero Vector" />
+          <img
+            className="object-contain"
+            src="/assets/image1.png"
+            alt="Hero Vector"
+            width={550}
+            height={300}
+          />
         </motion.div>
       </div>
     </div>
